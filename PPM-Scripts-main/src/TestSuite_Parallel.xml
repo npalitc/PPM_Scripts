@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel TestSuite" parallel="methods" thread-count="2">
+ <test name="Parallel TestCase" >
+    <classes>
+      <class name="testsuite.Node_Activity__CreateProjectFromTemplate_"/>
+      <class name="testsuite.Node_Activity__CreateAccounting_"/>
+      <class name="testsuite.Node_Activity__ManageUnprocessedTransactions_"/>
+      <class name="testsuite.ProjectNumber____68_"/>
+      <class name="testsuite.Node_Activity__OpenAccountingPeriod_"/>
+      <class name="testsuite.Node_Activity__CloseAccountingPeriod_"/>
+      <class name="testsuite.Node_Activity__ResolveCostTransactionExceptions_"/>
+      <class name="testsuite.Node_Activity__ReviewProjectCost_"/>
+      <class name="testsuite.Actions___Costing"/>
+      <class name="testsuite.Actions___Billing"/>
+      <class name="testsuite.Node_Activity__ProjectManagementHomePage_"/>
+      <class name="testsuite.Node_Activity__ImportCosts_"/>
+      <class name="testsuite.Node_Activity__ManageProjectBudget_"/>
+      <class name="testsuite.Node_Activity__TransferCosts_"/>
+      <class name="testsuite.Node_Activity__UpdateProjectClassification_"/>
+      <class name="testsuite.UpdateProjectStatus"/>
+      <class name="testsuite.ApproveProjectStatusChange"/>
+      <class name="testsuite.Node_Activity__BaselineProjectPlan_"/>
+      <class name="testsuite.Move_from_Event__Event_Node_5__to_Activity__AddTeamMembers_"/>
+      <class name="testsuite.Node_Activity__AddFinResurcesToATask_"/>
+      <class name="testsuite.Node_Activity__UpdateTaskDetails_"/>
+      <class name="testsuite.Node_Activity__CreateAPeerTask_"/>
+      <class name="testsuite.Node_Activity__UpdateTaskServiceType_"/>
+      <class name="testsuite.Node_Activity__UpdateProjectDetails_"/>
+      <class name="testsuite.Node_Activity__CaptureAndPublishProjectProgress_"/>
+    </classes>
+ </test>
+</suite>

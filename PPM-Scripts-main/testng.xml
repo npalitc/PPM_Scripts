@@ -1,0 +1,7 @@
+<suite name ="Sample suite">
+<test name = "Learning jenkins">
+<classes>
+<class name ="testsuite.EE001"> </class>
+</classes>
+</test>
+</suite>

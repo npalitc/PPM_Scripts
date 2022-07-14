@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Step - 1- Perform LaunchURL Action]]>
+    </line>
+    <line>
+      <![CDATA[Step - 2- verify SignInPage screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 3- Fill SigninPage form SignInPage screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 4- click SignIn button SignInPage screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 5- verify HomePage screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 6- click Navigator hyperlink HomePage screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 7- click ProjectFinancialManagement hyperlink HomePage screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 8- verify PFMMyProjects screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 9- click SearchExpand button PFMMyProjects screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 10- Fill Search form PFMMyProjects screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 11- click Search button PFMMyProjects screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 12- click ProjectNameLink hyperlink PFMMyProjects screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 13- verify ProjectOverview screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 14- click Tasks button ProjectOverview screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 15- verify ProjectOverviewTasks popup]]>
+    </line>
+    <line>
+      <![CDATA[Step - 16- click ManageProjectBudget hyperlink ProjectOverviewTasks popup]]>
+    </line>
+    <line>
+      <![CDATA[Step - 17- verify ManageBudgetVersions screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 18- click VersionName hyperlink ManageBudgetVersions screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 19- verify EditBudget screen]]>
+    </line>
+    <line>
+      <![CDATA[Step - 20- click Submit button EditBudget screen]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87431" started-at="2021-07-08T08:52:15Z" finished-at="2021-07-08T08:53:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87431" started-at="2021-07-08T08:52:15Z" finished-at="2021-07-08T08:53:43Z">
+      <class name="testsuite.Node_Activity__ManageProjectBudget_">
+        <test-method status="PASS" signature="getDeviceDriver()[pri:0, instance:testsuite.Node_Activity__ManageProjectBudget_@1b083826]" name="getDeviceDriver" is-config="true" duration-ms="1877" started-at="2021-07-08T14:22:15Z" finished-at="2021-07-08T14:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDeviceDriver -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testsuite.Node_Activity__ManageProjectBudget_@1b083826]" name="test" duration-ms="84568" started-at="2021-07-08T14:22:18Z" data-provider="TestData" finished-at="2021-07-08T14:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://ekwm-dev1.login.us6.oraclecloud.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jselvaraj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Oracle$2021]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[T-CAP-ARG]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Audentes Therapeutics, Inc.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ITC USA PL]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Selvaraj, Jimson]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Edit]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[SaveAndClose]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[600008]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[IT Convergence USA BU]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Billing]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[RecalculateRawCostAmt]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[HoldInvoiceOnce]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[FDBI Project 005]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[IT Convergence PS India]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[LaborCosts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Step - 1- Perform LaunchURL Action]]>
+            </line>
+            <line>
+              <![CDATA[Step - 2- verify SignInPage screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 3- Fill SigninPage form SignInPage screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 4- click SignIn button SignInPage screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 5- verify HomePage screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 6- click Navigator hyperlink HomePage screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 7- click ProjectFinancialManagement hyperlink HomePage screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 8- verify PFMMyProjects screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 9- click SearchExpand button PFMMyProjects screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 10- Fill Search form PFMMyProjects screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 11- click Search button PFMMyProjects screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 12- click ProjectNameLink hyperlink PFMMyProjects screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 13- verify ProjectOverview screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 14- click Tasks button ProjectOverview screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 15- verify ProjectOverviewTasks popup]]>
+            </line>
+            <line>
+              <![CDATA[Step - 16- click ManageProjectBudget hyperlink ProjectOverviewTasks popup]]>
+            </line>
+            <line>
+              <![CDATA[Step - 17- verify ManageBudgetVersions screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 18- click VersionName hyperlink ManageBudgetVersions screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 19- verify EditBudget screen]]>
+            </line>
+            <line>
+              <![CDATA[Step - 20- click Submit button EditBudget screen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="export()[pri:0, instance:testsuite.Node_Activity__ManageProjectBudget_@1b083826]" name="export" is-config="true" duration-ms="2" started-at="2021-07-08T14:23:43Z" finished-at="2021-07-08T14:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- export -->
+      </class> <!-- testsuite.Node_Activity__ManageProjectBudget_ -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
